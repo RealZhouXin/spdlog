@@ -85,7 +85,7 @@ endif()
 option(SPDLOG_BUILD_WARNINGS "Enable compiler warnings" OFF)
 
 # install options
-option(SPDLOG_SYSTEM_INCLUDES "Include as system headers (skip for clang-tidy)." OFF)
+option(SPDLOG_SYSTEM_INCLUDES "Include as system headers (skip for clang-tidy)." ON)
 option(SPDLOG_INSTALL "Generate the install target" ${SPDLOG_MASTER_PROJECT})
 option(SPDLOG_USE_STD_FORMAT "Use std::format instead of fmt library." OFF)
 option(SPDLOG_FMT_EXTERNAL "Use external fmt library instead of bundled" ON)
